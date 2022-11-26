@@ -99,7 +99,7 @@ app.post("/responder", (req, res) => {
 })
 
 // Abertura do Servidor
-app.listen(80, (erro) => {
+app.listen(8000, (erro) => {
     if(erro){
         console.log("ERRO !  !  ! ")
     }else{
